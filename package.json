@@ -28,8 +28,10 @@
   },
   "nyc": {
     "exclude": [
+      "cypress",
       "pages/api/__coverage__.js"
-    ]
+    ],
+    "all": true
   },
   "repository": {
     "type": "git",
