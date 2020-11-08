@@ -30,6 +30,7 @@
   "nyc": {
     "extends": "@istanbuljs/nyc-config-babel",
     "exclude": [
+      "coverage",
       "cypress",
       "pages/api/__coverage__.js"
     ],
